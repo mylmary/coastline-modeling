@@ -20,7 +20,9 @@ It also enables engineers to run predictive hydrodynamic simulations around majo
 By transitioning from slow, traditional physics engines to Transolver's real-time slice-attention over unstructured point clouds, scientists can instantly simulate multiple climate change scenarios—such as rising sea levels or intensified monsoon storms—to design targeted, data-driven coastal protection strategies.
 
 
-<img width="468" height="716" alt="Screenshot 2026-09-26 at 9 46 57 PM" src="https://github.com/user-attachments/assets/be6a58ce-2b2f-458a-8514-08533e8bd67c" />.  <img width="468" height="716" alt="Screenshot 2026-09-26 at 9 46 57 PM" src="https://github.com/user-attachments/assets/f3799c3e-8792-48e6-88ad-82c3f3d68e47" />
+<img width="742" height="678" alt="Screenshot 2026-09-26 at 7 40 02 PM" src="https://github.com/user-attachments/assets/21d5b7ea-1c2a-4bfc-8967-83afead50c72" />  <img width="917" height="624" alt="Screenshot 2026-09-26 at 10 18 21 PM" src="https://github.com/user-attachments/assets/809e9408-baa4-4292-8a4e-8d153844410b" />
+
+
 
 
 
