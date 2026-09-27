@@ -328,8 +328,20 @@ val_loader = DataLoader(
 
 
 # ------------------------------------------------------------
-# 5. Create Transolver++
+# 5. Initialize Transolver++
 # ------------------------------------------------------------
+ #Instantiate the model from your compiled blueprint handle
+#{model = Model(
+    #space_dim=3,        # Coordinates: [Longitude, Latitude, Depth]
+    #fun_dim=1,          # Terrain/Bathymetry parameter
+    #out_dim=3,          # Target physical flow fields to solve: [fluid_height, u_velocity, v_velocity]
+    #n_layers=4,         # Depth of layer attention blocks
+    #n_hidden=128,       # Channel width representation scale
+    #n_head=4,           # Parallel attention heads
+    #mlp_ratio=2,        # Hidden feed-forward expansion step scale
+    #slice_num=32,       # Physics attention slice counts
+    #unified_pos=False   # Keeps mesh coordinates distinct from feature metrics
+#).to(device)
 
 model = Transolver(
     space_dim=2,
