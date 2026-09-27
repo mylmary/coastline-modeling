@@ -1,4 +1,4 @@
-import os
+```import os
 import zipfile
 
 zip_path = "/kaggle/input/coastline-data/GMTED2010S10E030_075.zip"
@@ -14,6 +14,7 @@ print("Extraction complete.")
 for root, dirs, files in os.walk(extract_dir):
     for file in files:
         print(os.path.join(root, file))
+```
 
 
 To print a message to the console in Python, you use the `print()` function. 
